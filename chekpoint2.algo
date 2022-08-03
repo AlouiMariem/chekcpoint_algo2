@@ -1,0 +1,25 @@
+ALGORITHM checkpint2
+VAR
+    arr1,arr2 : ARRAY_OF INTEGER[10];
+    i,j,sum:INTEGER;
+   
+BEGIN 
+    sum:=0;
+FOR i FROM 0 to arr1.length-1 DO 
+//FOR j FROM 0 to arr2.length-1 DO 
+
+//IF (arr1[I]=arr2[J]) THEN
+//sum:=sum + arr1 [i]2
+//END_IF
+
+
+End FOR
+IF (arr1[i] in arr2) THEN
+    sum:=sum + arr1[i]*2
+
+END_IF
+
+    END_for
+        Write(sum)
+    
+END
